@@ -3,12 +3,14 @@ const project = new cdk.JsiiProject({
   author: 'Matthew Thomas',
   authorAddress: 'matthewthomasgb@gmail.com',
   defaultReleaseBranch: 'main',
-  name: 'projen-cdk-app-project-jsii',
-  repositoryUrl: 'https://github.com/matthewthomasgb/projen-cdk-app-project-jsii.git',
-
-  // deps: [],                /* Runtime dependencies of this module. */
-  // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],             /* Build dependencies for this module. */
-  // packageName: undefined,  /* The "name" in package.json. */
+  name: 'aws-ecs-fargate-service-projen-template',
+  repositoryUrl: 'https://github.com/matthewthomasgb/aws-ecs-fargate-service-projen-template.git',
+  deps: ['projen', 'fs-extra'],
+  peerDeps: ['projen'],
+  projenDevDependency: true,
+  bundledDeps: ['@types/jest@27.4.1', 'fs-extra'],
+  devDeps: ['@types/fs-extra@^8'],
+  packageName: '@ma11hewthomas/aws-ecs-fargate-service-projen-template',
+  npmAccess: 'public', 
 });
 project.synth();
