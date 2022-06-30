@@ -4,23 +4,23 @@
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### AwsCdkAppProject <a name="AwsCdkAppProject" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject"></a>
+### AwsCdkAppProject <a name="AwsCdkAppProject" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject"></a>
 
-#### Initializers <a name="Initializers" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.Initializer"></a>
+#### Initializers <a name="Initializers" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.Initializer"></a>
 
 ```typescript
-import { AwsCdkAppProject } from 'aws-ecs-fargate-service-projen-template'
+import { AwsCdkAppProject } from '@ma11hewthomas/aws-ecs-fargate-service-projen-template'
 
 new AwsCdkAppProject(options: AwsCdkTypeScriptAppOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.Initializer.parameter.options">options</a></code> | <code>projen.awscdk.AwsCdkTypeScriptAppOptions</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.Initializer.parameter.options">options</a></code> | <code>projen.awscdk.AwsCdkTypeScriptAppOptions</code> | *No description.* |
 
 ---
 
-##### `options`<sup>Required</sup> <a name="options" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.Initializer.parameter.options"></a>
+##### `options`<sup>Required</sup> <a name="options" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.Initializer.parameter.options"></a>
 
 - *Type:* projen.awscdk.AwsCdkTypeScriptAppOptions
 
@@ -30,39 +30,39 @@ new AwsCdkAppProject(options: AwsCdkTypeScriptAppOptions)
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addPackageIgnore">addPackageIgnore</a></code> | Exclude these files from the bundled package. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTask">addTask</a></code> | Adds a new task to this project. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.removeTask">removeTask</a></code> | Removes a task from a project. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.synth">synth</a></code> | Synthesize all project files into `outdir`. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addBins">addBins</a></code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addBundledDeps">addBundledDeps</a></code> | Defines bundled dependencies. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addCompileCommand">addCompileCommand</a></code> | DEPRECATED. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addDeps">addDeps</a></code> | Defines normal dependencies. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addDevDeps">addDevDeps</a></code> | Defines development/test dependencies. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addFields">addFields</a></code> | Directly set fields in `package.json`. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addKeywords">addKeywords</a></code> | Adds keywords to package.json (deduplicated). |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addPeerDeps">addPeerDeps</a></code> | Defines peer dependencies. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTestCommand">addTestCommand</a></code> | DEPRECATED. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.hasScript">hasScript</a></code> | Indicates if a script by the name name is defined. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.removeScript">removeScript</a></code> | Removes the npm script (always successful). |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.renderWorkflowSetup">renderWorkflowSetup</a></code> | Returns the set of workflow steps which should be executed to bootstrap a workflow. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.setScript">setScript</a></code> | Replaces the contents of an npm package.json script. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addCdkDependency">addCdkDependency</a></code> | Adds an AWS CDK module dependencies. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addPackageIgnore">addPackageIgnore</a></code> | Exclude these files from the bundled package. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTask">addTask</a></code> | Adds a new task to this project. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.removeTask">removeTask</a></code> | Removes a task from a project. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.synth">synth</a></code> | Synthesize all project files into `outdir`. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addBins">addBins</a></code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addBundledDeps">addBundledDeps</a></code> | Defines bundled dependencies. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addCompileCommand">addCompileCommand</a></code> | DEPRECATED. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addDeps">addDeps</a></code> | Defines normal dependencies. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addDevDeps">addDevDeps</a></code> | Defines development/test dependencies. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addFields">addFields</a></code> | Directly set fields in `package.json`. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addKeywords">addKeywords</a></code> | Adds keywords to package.json (deduplicated). |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addPeerDeps">addPeerDeps</a></code> | Defines peer dependencies. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTestCommand">addTestCommand</a></code> | DEPRECATED. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.hasScript">hasScript</a></code> | Indicates if a script by the name name is defined. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.removeScript">removeScript</a></code> | Removes the npm script (always successful). |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.renderWorkflowSetup">renderWorkflowSetup</a></code> | Returns the set of workflow steps which should be executed to bootstrap a workflow. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.setScript">setScript</a></code> | Replaces the contents of an npm package.json script. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addCdkDependency">addCdkDependency</a></code> | Adds an AWS CDK module dependencies. |
 
 ---
 
-##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addExcludeFromCleanup"></a>
+##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addExcludeFromCleanup"></a>
 
 ```typescript
 public addExcludeFromCleanup(globs: string): void
@@ -73,7 +73,7 @@ Exclude the matching files from pre-synth cleanup.
 Can be used when, for example, some
 source files include the projen marker and we don't want them to be erased during synth.
 
-###### `globs`<sup>Required</sup> <a name="globs" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addExcludeFromCleanup.parameter.globs"></a>
+###### `globs`<sup>Required</sup> <a name="globs" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addExcludeFromCleanup.parameter.globs"></a>
 
 - *Type:* string
 
@@ -81,7 +81,7 @@ The glob patterns to match.
 
 ---
 
-##### `addGitIgnore` <a name="addGitIgnore" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addGitIgnore"></a>
+##### `addGitIgnore` <a name="addGitIgnore" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addGitIgnore"></a>
 
 ```typescript
 public addGitIgnore(pattern: string): void
@@ -89,7 +89,7 @@ public addGitIgnore(pattern: string): void
 
 Adds a .gitignore pattern.
 
-###### `pattern`<sup>Required</sup> <a name="pattern" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addGitIgnore.parameter.pattern"></a>
+###### `pattern`<sup>Required</sup> <a name="pattern" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addGitIgnore.parameter.pattern"></a>
 
 - *Type:* string
 
@@ -97,7 +97,7 @@ The glob pattern to ignore.
 
 ---
 
-##### `addPackageIgnore` <a name="addPackageIgnore" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addPackageIgnore"></a>
+##### `addPackageIgnore` <a name="addPackageIgnore" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addPackageIgnore"></a>
 
 ```typescript
 public addPackageIgnore(pattern: string): void
@@ -108,13 +108,13 @@ Exclude these files from the bundled package.
 Implemented by project types based on the
 packaging mechanism. For example, `NodeProject` delegates this to `.npmignore`.
 
-###### `pattern`<sup>Required</sup> <a name="pattern" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addPackageIgnore.parameter.pattern"></a>
+###### `pattern`<sup>Required</sup> <a name="pattern" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addPackageIgnore.parameter.pattern"></a>
 
 - *Type:* string
 
 ---
 
-##### `addTask` <a name="addTask" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTask"></a>
+##### `addTask` <a name="addTask" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTask"></a>
 
 ```typescript
 public addTask(name: string, props?: TaskOptions): Task
@@ -125,7 +125,7 @@ Adds a new task to this project.
 This will fail if the project already has
 a task with this name.
 
-###### `name`<sup>Required</sup> <a name="name" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -133,7 +133,7 @@ The task name to add.
 
 ---
 
-###### `props`<sup>Optional</sup> <a name="props" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTask.parameter.props"></a>
+###### `props`<sup>Optional</sup> <a name="props" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTask.parameter.props"></a>
 
 - *Type:* projen.TaskOptions
 
@@ -141,7 +141,7 @@ Task properties.
 
 ---
 
-##### ~~`addTip`~~ <a name="addTip" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTip"></a>
+##### ~~`addTip`~~ <a name="addTip" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTip"></a>
 
 ```typescript
 public addTip(message: string): void
@@ -149,7 +149,7 @@ public addTip(message: string): void
 
 Prints a "tip" message during synthesis.
 
-###### `message`<sup>Required</sup> <a name="message" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTip.parameter.message"></a>
+###### `message`<sup>Required</sup> <a name="message" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTip.parameter.message"></a>
 
 - *Type:* string
 
@@ -157,7 +157,7 @@ The message.
 
 ---
 
-##### `annotateGenerated` <a name="annotateGenerated" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.annotateGenerated"></a>
+##### `annotateGenerated` <a name="annotateGenerated" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.annotateGenerated"></a>
 
 ```typescript
 public annotateGenerated(glob: string): void
@@ -171,7 +171,7 @@ repository statistics and language breakdown.
 
 > [https://github.com/github/linguist/blob/master/docs/overrides.md](https://github.com/github/linguist/blob/master/docs/overrides.md)
 
-###### `glob`<sup>Required</sup> <a name="glob" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.annotateGenerated.parameter.glob"></a>
+###### `glob`<sup>Required</sup> <a name="glob" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.annotateGenerated.parameter.glob"></a>
 
 - *Type:* string
 
@@ -179,7 +179,7 @@ the glob pattern to match (could be a file path).
 
 ---
 
-##### `postSynthesize` <a name="postSynthesize" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.postSynthesize"></a>
+##### `postSynthesize` <a name="postSynthesize" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.postSynthesize"></a>
 
 ```typescript
 public postSynthesize(): void
@@ -189,7 +189,7 @@ Called after all components are synthesized.
 
 Order is *not* guaranteed.
 
-##### `preSynthesize` <a name="preSynthesize" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.preSynthesize"></a>
+##### `preSynthesize` <a name="preSynthesize" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.preSynthesize"></a>
 
 ```typescript
 public preSynthesize(): void
@@ -197,7 +197,7 @@ public preSynthesize(): void
 
 Called before all components are synthesized.
 
-##### `removeTask` <a name="removeTask" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.removeTask"></a>
+##### `removeTask` <a name="removeTask" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.removeTask"></a>
 
 ```typescript
 public removeTask(name: string): Task
@@ -205,7 +205,7 @@ public removeTask(name: string): Task
 
 Removes a task from a project.
 
-###### `name`<sup>Required</sup> <a name="name" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.removeTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.removeTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -213,7 +213,7 @@ The name of the task to remove.
 
 ---
 
-##### `runTaskCommand` <a name="runTaskCommand" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.runTaskCommand"></a>
+##### `runTaskCommand` <a name="runTaskCommand" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.runTaskCommand"></a>
 
 ```typescript
 public runTaskCommand(task: Task): string
@@ -224,7 +224,7 @@ Returns the shell command to execute in order to run a task.
 This will
 typically be `npx projen TASK`.
 
-###### `task`<sup>Required</sup> <a name="task" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.runTaskCommand.parameter.task"></a>
+###### `task`<sup>Required</sup> <a name="task" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.runTaskCommand.parameter.task"></a>
 
 - *Type:* projen.Task
 
@@ -232,7 +232,7 @@ The task for which the command is required.
 
 ---
 
-##### `synth` <a name="synth" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.synth"></a>
+##### `synth` <a name="synth" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.synth"></a>
 
 ```typescript
 public synth(): void
@@ -247,7 +247,7 @@ Synthesize all project files into `outdir`.
 5. Call "postSynthesize()" for all components of this project
 6. Call "this.postSynthesize()"
 
-##### `tryFindFile` <a name="tryFindFile" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindFile"></a>
+##### `tryFindFile` <a name="tryFindFile" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindFile"></a>
 
 ```typescript
 public tryFindFile(filePath: string): FileBase
@@ -255,7 +255,7 @@ public tryFindFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and all its subprojects.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -266,7 +266,7 @@ from the root of _this_ project.
 
 ---
 
-##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindJsonFile"></a>
+##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindJsonFile"></a>
 
 ```typescript
 public tryFindJsonFile(filePath: string): JsonFile
@@ -274,7 +274,7 @@ public tryFindJsonFile(filePath: string): JsonFile
 
 Finds a json file by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindJsonFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindJsonFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -282,7 +282,7 @@ The file path.
 
 ---
 
-##### `tryFindObjectFile` <a name="tryFindObjectFile" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindObjectFile"></a>
+##### `tryFindObjectFile` <a name="tryFindObjectFile" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindObjectFile"></a>
 
 ```typescript
 public tryFindObjectFile(filePath: string): ObjectFile
@@ -290,7 +290,7 @@ public tryFindObjectFile(filePath: string): ObjectFile
 
 Finds an object file (like JsonFile, YamlFile, etc.) by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindObjectFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryFindObjectFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -298,7 +298,7 @@ The file path.
 
 ---
 
-##### `tryRemoveFile` <a name="tryRemoveFile" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryRemoveFile"></a>
+##### `tryRemoveFile` <a name="tryRemoveFile" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryRemoveFile"></a>
 
 ```typescript
 public tryRemoveFile(filePath: string): FileBase
@@ -306,7 +306,7 @@ public tryRemoveFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and removes it.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryRemoveFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.tryRemoveFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -317,19 +317,19 @@ resolved from the root of _this_ project.
 
 ---
 
-##### `addBins` <a name="addBins" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addBins"></a>
+##### `addBins` <a name="addBins" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addBins"></a>
 
 ```typescript
 public addBins(bins: {[ key: string ]: string}): void
 ```
 
-###### `bins`<sup>Required</sup> <a name="bins" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addBins.parameter.bins"></a>
+###### `bins`<sup>Required</sup> <a name="bins" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addBins.parameter.bins"></a>
 
 - *Type:* {[ key: string ]: string}
 
 ---
 
-##### `addBundledDeps` <a name="addBundledDeps" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addBundledDeps"></a>
+##### `addBundledDeps` <a name="addBundledDeps" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addBundledDeps"></a>
 
 ```typescript
 public addBundledDeps(deps: string): void
@@ -340,7 +340,7 @@ Defines bundled dependencies.
 Bundled dependencies will be added as normal dependencies as well as to the
 `bundledDependencies` section of your `package.json`.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addBundledDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addBundledDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -354,7 +354,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### ~~`addCompileCommand`~~ <a name="addCompileCommand" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addCompileCommand"></a>
+##### ~~`addCompileCommand`~~ <a name="addCompileCommand" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addCompileCommand"></a>
 
 ```typescript
 public addCompileCommand(commands: string): void
@@ -362,13 +362,13 @@ public addCompileCommand(commands: string): void
 
 DEPRECATED.
 
-###### `commands`<sup>Required</sup> <a name="commands" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addCompileCommand.parameter.commands"></a>
+###### `commands`<sup>Required</sup> <a name="commands" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addCompileCommand.parameter.commands"></a>
 
 - *Type:* string
 
 ---
 
-##### `addDeps` <a name="addDeps" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addDeps"></a>
+##### `addDeps` <a name="addDeps" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addDeps"></a>
 
 ```typescript
 public addDeps(deps: string): void
@@ -376,7 +376,7 @@ public addDeps(deps: string): void
 
 Defines normal dependencies.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -390,7 +390,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addDevDeps` <a name="addDevDeps" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addDevDeps"></a>
+##### `addDevDeps` <a name="addDevDeps" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addDevDeps"></a>
 
 ```typescript
 public addDevDeps(deps: string): void
@@ -398,7 +398,7 @@ public addDevDeps(deps: string): void
 
 Defines development/test dependencies.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addDevDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addDevDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -412,7 +412,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addFields` <a name="addFields" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addFields"></a>
+##### `addFields` <a name="addFields" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addFields"></a>
 
 ```typescript
 public addFields(fields: {[ key: string ]: any}): void
@@ -420,7 +420,7 @@ public addFields(fields: {[ key: string ]: any}): void
 
 Directly set fields in `package.json`.
 
-###### `fields`<sup>Required</sup> <a name="fields" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addFields.parameter.fields"></a>
+###### `fields`<sup>Required</sup> <a name="fields" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addFields.parameter.fields"></a>
 
 - *Type:* {[ key: string ]: any}
 
@@ -428,7 +428,7 @@ The fields to set.
 
 ---
 
-##### `addKeywords` <a name="addKeywords" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addKeywords"></a>
+##### `addKeywords` <a name="addKeywords" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addKeywords"></a>
 
 ```typescript
 public addKeywords(keywords: string): void
@@ -436,7 +436,7 @@ public addKeywords(keywords: string): void
 
 Adds keywords to package.json (deduplicated).
 
-###### `keywords`<sup>Required</sup> <a name="keywords" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addKeywords.parameter.keywords"></a>
+###### `keywords`<sup>Required</sup> <a name="keywords" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addKeywords.parameter.keywords"></a>
 
 - *Type:* string
 
@@ -444,7 +444,7 @@ The keywords to add.
 
 ---
 
-##### `addPeerDeps` <a name="addPeerDeps" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addPeerDeps"></a>
+##### `addPeerDeps` <a name="addPeerDeps" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addPeerDeps"></a>
 
 ```typescript
 public addPeerDeps(deps: string): void
@@ -456,7 +456,7 @@ When adding peer dependencies, a devDependency will also be added on the
 pinned version of the declared peer. This will ensure that you are testing
 your code against the minimum version required from your consumers.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addPeerDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addPeerDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -470,7 +470,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### ~~`addTestCommand`~~ <a name="addTestCommand" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTestCommand"></a>
+##### ~~`addTestCommand`~~ <a name="addTestCommand" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTestCommand"></a>
 
 ```typescript
 public addTestCommand(commands: string): void
@@ -478,13 +478,13 @@ public addTestCommand(commands: string): void
 
 DEPRECATED.
 
-###### `commands`<sup>Required</sup> <a name="commands" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTestCommand.parameter.commands"></a>
+###### `commands`<sup>Required</sup> <a name="commands" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addTestCommand.parameter.commands"></a>
 
 - *Type:* string
 
 ---
 
-##### `hasScript` <a name="hasScript" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.hasScript"></a>
+##### `hasScript` <a name="hasScript" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.hasScript"></a>
 
 ```typescript
 public hasScript(name: string): boolean
@@ -492,7 +492,7 @@ public hasScript(name: string): boolean
 
 Indicates if a script by the name name is defined.
 
-###### `name`<sup>Required</sup> <a name="name" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.hasScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.hasScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -500,7 +500,7 @@ The name of the script.
 
 ---
 
-##### `removeScript` <a name="removeScript" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.removeScript"></a>
+##### `removeScript` <a name="removeScript" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.removeScript"></a>
 
 ```typescript
 public removeScript(name: string): void
@@ -508,7 +508,7 @@ public removeScript(name: string): void
 
 Removes the npm script (always successful).
 
-###### `name`<sup>Required</sup> <a name="name" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.removeScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.removeScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -516,7 +516,7 @@ The name of the script.
 
 ---
 
-##### `renderWorkflowSetup` <a name="renderWorkflowSetup" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.renderWorkflowSetup"></a>
+##### `renderWorkflowSetup` <a name="renderWorkflowSetup" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.renderWorkflowSetup"></a>
 
 ```typescript
 public renderWorkflowSetup(options?: RenderWorkflowSetupOptions): JobStep[]
@@ -524,7 +524,7 @@ public renderWorkflowSetup(options?: RenderWorkflowSetupOptions): JobStep[]
 
 Returns the set of workflow steps which should be executed to bootstrap a workflow.
 
-###### `options`<sup>Optional</sup> <a name="options" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.renderWorkflowSetup.parameter.options"></a>
+###### `options`<sup>Optional</sup> <a name="options" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.renderWorkflowSetup.parameter.options"></a>
 
 - *Type:* projen.javascript.RenderWorkflowSetupOptions
 
@@ -532,7 +532,7 @@ Options.
 
 ---
 
-##### `setScript` <a name="setScript" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.setScript"></a>
+##### `setScript` <a name="setScript" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.setScript"></a>
 
 ```typescript
 public setScript(name: string, command: string): void
@@ -540,7 +540,7 @@ public setScript(name: string, command: string): void
 
 Replaces the contents of an npm package.json script.
 
-###### `name`<sup>Required</sup> <a name="name" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.setScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.setScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -548,7 +548,7 @@ The script name.
 
 ---
 
-###### `command`<sup>Required</sup> <a name="command" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.setScript.parameter.command"></a>
+###### `command`<sup>Required</sup> <a name="command" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.setScript.parameter.command"></a>
 
 - *Type:* string
 
@@ -556,7 +556,7 @@ The command to execute.
 
 ---
 
-##### `addCdkDependency` <a name="addCdkDependency" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addCdkDependency"></a>
+##### `addCdkDependency` <a name="addCdkDependency" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addCdkDependency"></a>
 
 ```typescript
 public addCdkDependency(modules: string): void
@@ -564,7 +564,7 @@ public addCdkDependency(modules: string): void
 
 Adds an AWS CDK module dependencies.
 
-###### `modules`<sup>Required</sup> <a name="modules" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addCdkDependency.parameter.modules"></a>
+###### `modules`<sup>Required</sup> <a name="modules" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.addCdkDependency.parameter.modules"></a>
 
 - *Type:* string
 
@@ -577,73 +577,73 @@ The list of modules to depend on.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.name">name</a></code> | <code>string</code> | Project name. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | The build output directory. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.artifactsJavascriptDirectory">artifactsJavascriptDirectory</a></code> | <code>string</code> | The location of the npm tarball after build (`${artifactsDirectory}/js`). |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.bundler">bundler</a></code> | <code>projen.javascript.Bundler</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.entrypoint">entrypoint</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.manifest">manifest</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.package">package</a></code> | <code>projen.javascript.NodePackage</code> | API for managing the node package. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The package manager to use. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.runScriptCommand">runScriptCommand</a></code> | <code>string</code> | The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the package manager). |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.autoMerge">autoMerge</a></code> | <code>projen.github.AutoMerge</code> | Component that sets up mergify for merging approved pull requests. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.buildWorkflow">buildWorkflow</a></code> | <code>projen.build.BuildWorkflow</code> | The PR build GitHub workflow. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.buildWorkflowJobId">buildWorkflowJobId</a></code> | <code>string</code> | The job ID of the build workflow. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.jest">jest</a></code> | <code>projen.javascript.Jest</code> | The Jest configuration (if enabled). |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Maximum node version required by this pacakge. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | Minimum node.js version required by this package. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.npmignore">npmignore</a></code> | <code>projen.IgnoreFile</code> | The .npmignore file. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.prettier">prettier</a></code> | <code>projen.javascript.Prettier</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.publisher">publisher</a></code> | <code>projen.release.Publisher</code> | Package publisher. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.release">release</a></code> | <code>projen.release.Release</code> | Release management. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.upgradeWorkflow">upgradeWorkflow</a></code> | <code>projen.javascript.UpgradeDependencies</code> | The upgrade workflow. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.libdir">libdir</a></code> | <code>string</code> | The directory in which compiled .js files reside. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.srcdir">srcdir</a></code> | <code>string</code> | The directory in which the .ts sources reside. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.testdir">testdir</a></code> | <code>string</code> | The directory in which tests reside. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfig</code> | A typescript configuration file which covers all files (sources, tests, projen). |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.watchTask">watchTask</a></code> | <code>projen.Task</code> | The "watch" task. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.docgen">docgen</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.eslint">eslint</a></code> | <code>projen.javascript.Eslint</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tsconfigEslint">tsconfigEslint</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.appEntrypoint">appEntrypoint</a></code> | <code>string</code> | The CDK app entrypoint. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkConfig">cdkConfig</a></code> | <code>projen.awscdk.CdkConfig</code> | cdk.json configuration. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkDeps">cdkDeps</a></code> | <code>projen.awscdk.AwsCdkDeps</code> | *No description.* |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkTasks">cdkTasks</a></code> | <code>projen.awscdk.CdkTasks</code> | Common CDK tasks. |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkVersion">cdkVersion</a></code> | <code>string</code> | The CDK version this app is using. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.name">name</a></code> | <code>string</code> | Project name. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | The build output directory. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.artifactsJavascriptDirectory">artifactsJavascriptDirectory</a></code> | <code>string</code> | The location of the npm tarball after build (`${artifactsDirectory}/js`). |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.bundler">bundler</a></code> | <code>projen.javascript.Bundler</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.entrypoint">entrypoint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.manifest">manifest</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.package">package</a></code> | <code>projen.javascript.NodePackage</code> | API for managing the node package. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The package manager to use. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.runScriptCommand">runScriptCommand</a></code> | <code>string</code> | The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the package manager). |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.autoMerge">autoMerge</a></code> | <code>projen.github.AutoMerge</code> | Component that sets up mergify for merging approved pull requests. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.buildWorkflow">buildWorkflow</a></code> | <code>projen.build.BuildWorkflow</code> | The PR build GitHub workflow. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.buildWorkflowJobId">buildWorkflowJobId</a></code> | <code>string</code> | The job ID of the build workflow. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.jest">jest</a></code> | <code>projen.javascript.Jest</code> | The Jest configuration (if enabled). |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Maximum node version required by this pacakge. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | Minimum node.js version required by this package. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.npmignore">npmignore</a></code> | <code>projen.IgnoreFile</code> | The .npmignore file. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.prettier">prettier</a></code> | <code>projen.javascript.Prettier</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.publisher">publisher</a></code> | <code>projen.release.Publisher</code> | Package publisher. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.release">release</a></code> | <code>projen.release.Release</code> | Release management. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.upgradeWorkflow">upgradeWorkflow</a></code> | <code>projen.javascript.UpgradeDependencies</code> | The upgrade workflow. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.libdir">libdir</a></code> | <code>string</code> | The directory in which compiled .js files reside. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.srcdir">srcdir</a></code> | <code>string</code> | The directory in which the .ts sources reside. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.testdir">testdir</a></code> | <code>string</code> | The directory in which tests reside. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfig</code> | A typescript configuration file which covers all files (sources, tests, projen). |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.watchTask">watchTask</a></code> | <code>projen.Task</code> | The "watch" task. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.docgen">docgen</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.eslint">eslint</a></code> | <code>projen.javascript.Eslint</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tsconfigEslint">tsconfigEslint</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.appEntrypoint">appEntrypoint</a></code> | <code>string</code> | The CDK app entrypoint. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkConfig">cdkConfig</a></code> | <code>projen.awscdk.CdkConfig</code> | cdk.json configuration. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkDeps">cdkDeps</a></code> | <code>projen.awscdk.AwsCdkDeps</code> | *No description.* |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkTasks">cdkTasks</a></code> | <code>projen.awscdk.CdkTasks</code> | Common CDK tasks. |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkVersion">cdkVersion</a></code> | <code>string</code> | The CDK version this app is using. |
 
 ---
 
-##### `buildTask`<sup>Required</sup> <a name="buildTask" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.buildTask"></a>
+##### `buildTask`<sup>Required</sup> <a name="buildTask" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.buildTask"></a>
 
 ```typescript
 public readonly buildTask: Task;
@@ -653,7 +653,7 @@ public readonly buildTask: Task;
 
 ---
 
-##### `compileTask`<sup>Required</sup> <a name="compileTask" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.compileTask"></a>
+##### `compileTask`<sup>Required</sup> <a name="compileTask" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.compileTask"></a>
 
 ```typescript
 public readonly compileTask: Task;
@@ -663,7 +663,7 @@ public readonly compileTask: Task;
 
 ---
 
-##### `components`<sup>Required</sup> <a name="components" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.components"></a>
+##### `components`<sup>Required</sup> <a name="components" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.components"></a>
 
 ```typescript
 public readonly components: Component[];
@@ -675,7 +675,7 @@ Returns all the components within this project.
 
 ---
 
-##### `deps`<sup>Required</sup> <a name="deps" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.deps"></a>
+##### `deps`<sup>Required</sup> <a name="deps" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.deps"></a>
 
 ```typescript
 public readonly deps: Dependencies;
@@ -687,7 +687,7 @@ Project dependencies.
 
 ---
 
-##### `ejected`<sup>Required</sup> <a name="ejected" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.ejected"></a>
+##### `ejected`<sup>Required</sup> <a name="ejected" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.ejected"></a>
 
 ```typescript
 public readonly ejected: boolean;
@@ -699,7 +699,7 @@ Whether or not the project is being ejected.
 
 ---
 
-##### `files`<sup>Required</sup> <a name="files" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.files"></a>
+##### `files`<sup>Required</sup> <a name="files" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.files"></a>
 
 ```typescript
 public readonly files: FileBase[];
@@ -711,7 +711,7 @@ All files in this project.
 
 ---
 
-##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.gitattributes"></a>
+##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.gitattributes"></a>
 
 ```typescript
 public readonly gitattributes: GitAttributesFile;
@@ -723,7 +723,7 @@ The .gitattributes file for this repository.
 
 ---
 
-##### `gitignore`<sup>Required</sup> <a name="gitignore" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.gitignore"></a>
+##### `gitignore`<sup>Required</sup> <a name="gitignore" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.gitignore"></a>
 
 ```typescript
 public readonly gitignore: IgnoreFile;
@@ -735,7 +735,7 @@ public readonly gitignore: IgnoreFile;
 
 ---
 
-##### `logger`<sup>Required</sup> <a name="logger" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.logger"></a>
+##### `logger`<sup>Required</sup> <a name="logger" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.logger"></a>
 
 ```typescript
 public readonly logger: Logger;
@@ -747,7 +747,7 @@ Logging utilities.
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -759,7 +759,7 @@ Project name.
 
 ---
 
-##### `outdir`<sup>Required</sup> <a name="outdir" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.outdir"></a>
+##### `outdir`<sup>Required</sup> <a name="outdir" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.outdir"></a>
 
 ```typescript
 public readonly outdir: string;
@@ -771,7 +771,7 @@ Absolute output directory of this project.
 
 ---
 
-##### `packageTask`<sup>Required</sup> <a name="packageTask" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.packageTask"></a>
+##### `packageTask`<sup>Required</sup> <a name="packageTask" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.packageTask"></a>
 
 ```typescript
 public readonly packageTask: Task;
@@ -781,7 +781,7 @@ public readonly packageTask: Task;
 
 ---
 
-##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.postCompileTask"></a>
+##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.postCompileTask"></a>
 
 ```typescript
 public readonly postCompileTask: Task;
@@ -791,7 +791,7 @@ public readonly postCompileTask: Task;
 
 ---
 
-##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.preCompileTask"></a>
+##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.preCompileTask"></a>
 
 ```typescript
 public readonly preCompileTask: Task;
@@ -801,7 +801,7 @@ public readonly preCompileTask: Task;
 
 ---
 
-##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.projectBuild"></a>
+##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.projectBuild"></a>
 
 ```typescript
 public readonly projectBuild: ProjectBuild;
@@ -813,7 +813,7 @@ Manages the build process of the project.
 
 ---
 
-##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.projenCommand"></a>
+##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.projenCommand"></a>
 
 ```typescript
 public readonly projenCommand: string;
@@ -825,7 +825,7 @@ The command to use in order to run the projen CLI.
 
 ---
 
-##### `root`<sup>Required</sup> <a name="root" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.root"></a>
+##### `root`<sup>Required</sup> <a name="root" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.root"></a>
 
 ```typescript
 public readonly root: Project;
@@ -837,7 +837,7 @@ The root project.
 
 ---
 
-##### `tasks`<sup>Required</sup> <a name="tasks" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tasks"></a>
+##### `tasks`<sup>Required</sup> <a name="tasks" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tasks"></a>
 
 ```typescript
 public readonly tasks: Tasks;
@@ -849,7 +849,7 @@ Project tasks.
 
 ---
 
-##### `testTask`<sup>Required</sup> <a name="testTask" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.testTask"></a>
+##### `testTask`<sup>Required</sup> <a name="testTask" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.testTask"></a>
 
 ```typescript
 public readonly testTask: Task;
@@ -859,7 +859,7 @@ public readonly testTask: Task;
 
 ---
 
-##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.defaultTask"></a>
+##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.defaultTask"></a>
 
 ```typescript
 public readonly defaultTask: Task;
@@ -874,7 +874,7 @@ the project is being ejected.
 
 ---
 
-##### `initProject`<sup>Optional</sup> <a name="initProject" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.initProject"></a>
+##### `initProject`<sup>Optional</sup> <a name="initProject" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.initProject"></a>
 
 ```typescript
 public readonly initProject: InitProject;
@@ -890,7 +890,7 @@ FQN of the project type.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="parent" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="parent" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.parent"></a>
 
 ```typescript
 public readonly parent: Project;
@@ -904,7 +904,7 @@ If undefined, this is the root project.
 
 ---
 
-##### `projectType`<sup>Required</sup> <a name="projectType" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.projectType"></a>
+##### `projectType`<sup>Required</sup> <a name="projectType" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.projectType"></a>
 
 ```typescript
 public readonly projectType: ProjectType;
@@ -914,7 +914,7 @@ public readonly projectType: ProjectType;
 
 ---
 
-##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.autoApprove"></a>
+##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.autoApprove"></a>
 
 ```typescript
 public readonly autoApprove: AutoApprove;
@@ -926,7 +926,7 @@ Auto approve set up for this project.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.devContainer"></a>
 
 ```typescript
 public readonly devContainer: DevContainer;
@@ -940,7 +940,7 @@ This will be `undefined` if devContainer boolean is false
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="github" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="github" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.github"></a>
 
 ```typescript
 public readonly github: GitHub;
@@ -954,7 +954,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.gitpod"></a>
 
 ```typescript
 public readonly gitpod: Gitpod;
@@ -968,7 +968,7 @@ This will be `undefined` if gitpod boolean is false
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="vscode" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="vscode" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.vscode"></a>
 
 ```typescript
 public readonly vscode: VsCode;
@@ -982,7 +982,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### ~~`allowLibraryDependencies`~~<sup>Required</sup> <a name="allowLibraryDependencies" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.allowLibraryDependencies"></a>
+##### ~~`allowLibraryDependencies`~~<sup>Required</sup> <a name="allowLibraryDependencies" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.allowLibraryDependencies"></a>
 
 - *Deprecated:* use `package.allowLibraryDependencies`
 
@@ -994,7 +994,7 @@ public readonly allowLibraryDependencies: boolean;
 
 ---
 
-##### `artifactsDirectory`<sup>Required</sup> <a name="artifactsDirectory" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.artifactsDirectory"></a>
+##### `artifactsDirectory`<sup>Required</sup> <a name="artifactsDirectory" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.artifactsDirectory"></a>
 
 ```typescript
 public readonly artifactsDirectory: string;
@@ -1010,7 +1010,7 @@ tarball will be placed under `dist/js/boom-boom-1.2.3.tg`.
 
 ---
 
-##### `artifactsJavascriptDirectory`<sup>Required</sup> <a name="artifactsJavascriptDirectory" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.artifactsJavascriptDirectory"></a>
+##### `artifactsJavascriptDirectory`<sup>Required</sup> <a name="artifactsJavascriptDirectory" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.artifactsJavascriptDirectory"></a>
 
 ```typescript
 public readonly artifactsJavascriptDirectory: string;
@@ -1022,7 +1022,7 @@ The location of the npm tarball after build (`${artifactsDirectory}/js`).
 
 ---
 
-##### `bundler`<sup>Required</sup> <a name="bundler" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.bundler"></a>
+##### `bundler`<sup>Required</sup> <a name="bundler" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.bundler"></a>
 
 ```typescript
 public readonly bundler: Bundler;
@@ -1032,7 +1032,7 @@ public readonly bundler: Bundler;
 
 ---
 
-##### ~~`entrypoint`~~<sup>Required</sup> <a name="entrypoint" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.entrypoint"></a>
+##### ~~`entrypoint`~~<sup>Required</sup> <a name="entrypoint" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.entrypoint"></a>
 
 - *Deprecated:* use `package.entrypoint`
 
@@ -1044,7 +1044,7 @@ public readonly entrypoint: string;
 
 ---
 
-##### ~~`manifest`~~<sup>Required</sup> <a name="manifest" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.manifest"></a>
+##### ~~`manifest`~~<sup>Required</sup> <a name="manifest" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.manifest"></a>
 
 - *Deprecated:* use `package.addField(x, y)`
 
@@ -1056,7 +1056,7 @@ public readonly manifest: any;
 
 ---
 
-##### `package`<sup>Required</sup> <a name="package" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.package"></a>
+##### `package`<sup>Required</sup> <a name="package" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.package"></a>
 
 ```typescript
 public readonly package: NodePackage;
@@ -1068,7 +1068,7 @@ API for managing the node package.
 
 ---
 
-##### ~~`packageManager`~~<sup>Required</sup> <a name="packageManager" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.packageManager"></a>
+##### ~~`packageManager`~~<sup>Required</sup> <a name="packageManager" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.packageManager"></a>
 
 - *Deprecated:* use `package.packageManager`
 
@@ -1082,7 +1082,7 @@ The package manager to use.
 
 ---
 
-##### `runScriptCommand`<sup>Required</sup> <a name="runScriptCommand" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.runScriptCommand"></a>
+##### `runScriptCommand`<sup>Required</sup> <a name="runScriptCommand" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.runScriptCommand"></a>
 
 ```typescript
 public readonly runScriptCommand: string;
@@ -1094,7 +1094,7 @@ The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the p
 
 ---
 
-##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.autoMerge"></a>
+##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.autoMerge"></a>
 
 ```typescript
 public readonly autoMerge: AutoMerge;
@@ -1106,7 +1106,7 @@ Component that sets up mergify for merging approved pull requests.
 
 ---
 
-##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.buildWorkflow"></a>
+##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.buildWorkflow"></a>
 
 ```typescript
 public readonly buildWorkflow: BuildWorkflow;
@@ -1120,7 +1120,7 @@ The PR build GitHub workflow.
 
 ---
 
-##### `buildWorkflowJobId`<sup>Optional</sup> <a name="buildWorkflowJobId" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.buildWorkflowJobId"></a>
+##### `buildWorkflowJobId`<sup>Optional</sup> <a name="buildWorkflowJobId" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.buildWorkflowJobId"></a>
 
 ```typescript
 public readonly buildWorkflowJobId: string;
@@ -1132,7 +1132,7 @@ The job ID of the build workflow.
 
 ---
 
-##### `jest`<sup>Optional</sup> <a name="jest" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.jest"></a>
+##### `jest`<sup>Optional</sup> <a name="jest" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.jest"></a>
 
 ```typescript
 public readonly jest: Jest;
@@ -1144,7 +1144,7 @@ The Jest configuration (if enabled).
 
 ---
 
-##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.maxNodeVersion"></a>
+##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.maxNodeVersion"></a>
 
 ```typescript
 public readonly maxNodeVersion: string;
@@ -1156,7 +1156,7 @@ Maximum node version required by this pacakge.
 
 ---
 
-##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.minNodeVersion"></a>
+##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.minNodeVersion"></a>
 
 ```typescript
 public readonly minNodeVersion: string;
@@ -1168,7 +1168,7 @@ Minimum node.js version required by this package.
 
 ---
 
-##### `npmignore`<sup>Optional</sup> <a name="npmignore" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.npmignore"></a>
+##### `npmignore`<sup>Optional</sup> <a name="npmignore" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.npmignore"></a>
 
 ```typescript
 public readonly npmignore: IgnoreFile;
@@ -1180,7 +1180,7 @@ The .npmignore file.
 
 ---
 
-##### `prettier`<sup>Optional</sup> <a name="prettier" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.prettier"></a>
+##### `prettier`<sup>Optional</sup> <a name="prettier" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.prettier"></a>
 
 ```typescript
 public readonly prettier: Prettier;
@@ -1190,7 +1190,7 @@ public readonly prettier: Prettier;
 
 ---
 
-##### ~~`publisher`~~<sup>Optional</sup> <a name="publisher" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.publisher"></a>
+##### ~~`publisher`~~<sup>Optional</sup> <a name="publisher" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.publisher"></a>
 
 - *Deprecated:* use `release.publisher`.
 
@@ -1207,7 +1207,7 @@ release workflow.
 
 ---
 
-##### `release`<sup>Optional</sup> <a name="release" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.release"></a>
+##### `release`<sup>Optional</sup> <a name="release" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.release"></a>
 
 ```typescript
 public readonly release: Release;
@@ -1219,7 +1219,7 @@ Release management.
 
 ---
 
-##### `upgradeWorkflow`<sup>Optional</sup> <a name="upgradeWorkflow" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.upgradeWorkflow"></a>
+##### `upgradeWorkflow`<sup>Optional</sup> <a name="upgradeWorkflow" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.upgradeWorkflow"></a>
 
 ```typescript
 public readonly upgradeWorkflow: UpgradeDependencies;
@@ -1231,7 +1231,7 @@ The upgrade workflow.
 
 ---
 
-##### `docsDirectory`<sup>Required</sup> <a name="docsDirectory" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.docsDirectory"></a>
+##### `docsDirectory`<sup>Required</sup> <a name="docsDirectory" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.docsDirectory"></a>
 
 ```typescript
 public readonly docsDirectory: string;
@@ -1241,7 +1241,7 @@ public readonly docsDirectory: string;
 
 ---
 
-##### `libdir`<sup>Required</sup> <a name="libdir" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.libdir"></a>
+##### `libdir`<sup>Required</sup> <a name="libdir" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.libdir"></a>
 
 ```typescript
 public readonly libdir: string;
@@ -1253,7 +1253,7 @@ The directory in which compiled .js files reside.
 
 ---
 
-##### `srcdir`<sup>Required</sup> <a name="srcdir" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.srcdir"></a>
+##### `srcdir`<sup>Required</sup> <a name="srcdir" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.srcdir"></a>
 
 ```typescript
 public readonly srcdir: string;
@@ -1265,7 +1265,7 @@ The directory in which the .ts sources reside.
 
 ---
 
-##### `testdir`<sup>Required</sup> <a name="testdir" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.testdir"></a>
+##### `testdir`<sup>Required</sup> <a name="testdir" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.testdir"></a>
 
 ```typescript
 public readonly testdir: string;
@@ -1277,7 +1277,7 @@ The directory in which tests reside.
 
 ---
 
-##### `tsconfigDev`<sup>Required</sup> <a name="tsconfigDev" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tsconfigDev"></a>
+##### `tsconfigDev`<sup>Required</sup> <a name="tsconfigDev" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tsconfigDev"></a>
 
 ```typescript
 public readonly tsconfigDev: TypescriptConfig;
@@ -1289,7 +1289,7 @@ A typescript configuration file which covers all files (sources, tests, projen).
 
 ---
 
-##### `watchTask`<sup>Required</sup> <a name="watchTask" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.watchTask"></a>
+##### `watchTask`<sup>Required</sup> <a name="watchTask" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.watchTask"></a>
 
 ```typescript
 public readonly watchTask: Task;
@@ -1301,7 +1301,7 @@ The "watch" task.
 
 ---
 
-##### `docgen`<sup>Optional</sup> <a name="docgen" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.docgen"></a>
+##### `docgen`<sup>Optional</sup> <a name="docgen" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.docgen"></a>
 
 ```typescript
 public readonly docgen: boolean;
@@ -1311,7 +1311,7 @@ public readonly docgen: boolean;
 
 ---
 
-##### `eslint`<sup>Optional</sup> <a name="eslint" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.eslint"></a>
+##### `eslint`<sup>Optional</sup> <a name="eslint" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.eslint"></a>
 
 ```typescript
 public readonly eslint: Eslint;
@@ -1321,7 +1321,7 @@ public readonly eslint: Eslint;
 
 ---
 
-##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tsconfig"></a>
+##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tsconfig"></a>
 
 ```typescript
 public readonly tsconfig: TypescriptConfig;
@@ -1331,7 +1331,7 @@ public readonly tsconfig: TypescriptConfig;
 
 ---
 
-##### `tsconfigEslint`<sup>Optional</sup> <a name="tsconfigEslint" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tsconfigEslint"></a>
+##### `tsconfigEslint`<sup>Optional</sup> <a name="tsconfigEslint" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.tsconfigEslint"></a>
 
 ```typescript
 public readonly tsconfigEslint: TypescriptConfig;
@@ -1341,7 +1341,7 @@ public readonly tsconfigEslint: TypescriptConfig;
 
 ---
 
-##### `appEntrypoint`<sup>Required</sup> <a name="appEntrypoint" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.appEntrypoint"></a>
+##### `appEntrypoint`<sup>Required</sup> <a name="appEntrypoint" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.appEntrypoint"></a>
 
 ```typescript
 public readonly appEntrypoint: string;
@@ -1353,7 +1353,7 @@ The CDK app entrypoint.
 
 ---
 
-##### `cdkConfig`<sup>Required</sup> <a name="cdkConfig" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkConfig"></a>
+##### `cdkConfig`<sup>Required</sup> <a name="cdkConfig" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkConfig"></a>
 
 ```typescript
 public readonly cdkConfig: CdkConfig;
@@ -1365,7 +1365,7 @@ cdk.json configuration.
 
 ---
 
-##### `cdkDeps`<sup>Required</sup> <a name="cdkDeps" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkDeps"></a>
+##### `cdkDeps`<sup>Required</sup> <a name="cdkDeps" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkDeps"></a>
 
 ```typescript
 public readonly cdkDeps: AwsCdkDeps;
@@ -1375,7 +1375,7 @@ public readonly cdkDeps: AwsCdkDeps;
 
 ---
 
-##### `cdkTasks`<sup>Required</sup> <a name="cdkTasks" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkTasks"></a>
+##### `cdkTasks`<sup>Required</sup> <a name="cdkTasks" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkTasks"></a>
 
 ```typescript
 public readonly cdkTasks: CdkTasks;
@@ -1387,7 +1387,7 @@ Common CDK tasks.
 
 ---
 
-##### `cdkVersion`<sup>Required</sup> <a name="cdkVersion" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkVersion"></a>
+##### `cdkVersion`<sup>Required</sup> <a name="cdkVersion" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.cdkVersion"></a>
 
 ```typescript
 public readonly cdkVersion: string;
@@ -1403,11 +1403,11 @@ The CDK version this app is using.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
+| <code><a href="#@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
 
 ---
 
-##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.DEFAULT_TASK"></a>
+##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="@ma11hewthomas/aws-ecs-fargate-service-projen-template.AwsCdkAppProject.property.DEFAULT_TASK"></a>
 
 ```typescript
 public readonly DEFAULT_TASK: string;

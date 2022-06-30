@@ -11,6 +11,6 @@ const project = new cdk.JsiiProject({
   bundledDeps: ['@types/jest@27.4.1', 'fs-extra'],
   devDeps: ['@types/fs-extra@^8'],
   packageName: '@ma11hewthomas/aws-ecs-fargate-service-projen-template',
-  npmAccess: 'public', 
+  npmAccess: 'public',
 });
 project.synth();

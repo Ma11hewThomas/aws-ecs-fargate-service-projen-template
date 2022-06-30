@@ -1,5 +1,5 @@
 {
-  "name": "aws-ecs-fargate-service-projen-template",
+  "name": "@ma11hewthomas/aws-ecs-fargate-service-projen-template",
   "repository": {
     "type": "git",
     "url": "https://github.com/matthewthomasgb/aws-ecs-fargate-service-projen-template.git"
@@ -71,6 +71,9 @@
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0",
   "jest": {
     "testMatch": [
